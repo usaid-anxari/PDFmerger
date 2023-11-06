@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <title>PDF - Compres</title>
+</head>
+<body>
+    <!-- NavBAr -->
+    <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">PDF Merge Pro</a>
+    </div>
+  </nav>
+    <!-- File Form -->
+    <div class="container">
+     <h1>PDF Merge Pro</h1>
+     <form method="post" action="/merge" enctype="multipart/form-data">
+      <div class="mb-2">
+        <label for="formFileMultiple" class="form-label">Select To PDF file you want to merge</label>
+        <input class="form-control" name="pdfs" type="file" id="formFileMultiple" multiple accept=".pdf">
+        <input class="btn btn-primary my-2" type="submit" value="Submit">
+      </div>
+    </form>
+    </div>
+
+
+
+
+    <!-- BootStrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
